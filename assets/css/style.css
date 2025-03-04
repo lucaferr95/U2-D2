@@ -133,11 +133,14 @@ h1 {
 }
 #undSpan {
   position: relative;
+  white-space: nowrap;
 }
 #undSpan img {
   position: absolute;
+  width: 100%;
   top: 100%;
   left: 0;
+  opacity: 0.6;
 }
 p,
 address,
@@ -407,11 +410,9 @@ footer a {
   }
 }
 .topbar {
-  text-align: center;
   position: fixed;
-  right: 0;
-  top: 20px;
-  padding: 20px;
+  right: 6px;
+  top: 200px;
 }
 .topbar ion-icon {
   display: block;
@@ -419,6 +420,7 @@ footer a {
   background-color: rgba(245, 245, 245, 0.689);
   border: 2px solid;
   color: rgba(8, 53, 169, 0.807);
+  margin-bottom: 10px;
 }
 .buttonTop {
   text-align: center;
@@ -429,7 +431,7 @@ footer a {
 }
 
 .buttonTop ion-icon {
-  font-size: 50px;
+  font-size: 40px;
   background-color: rgba(245, 245, 245, 0.689);
   color: orange;
   margin-bottom: 10px;
